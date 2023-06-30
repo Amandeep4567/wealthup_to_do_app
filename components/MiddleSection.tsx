@@ -9,7 +9,7 @@ const MiddleSection = () => {
         </h1>
 
         <div className="flex justify-around">
-          <div className="w-[700px] flex align-bottom pt-[80px] text-white">
+          <div className="sm:w-[600px] flex pt-[80px] text-white">
             <div>
               <Image src="/person.png" width={250} height={70} alt="person" />
             </div>
@@ -27,7 +27,7 @@ const MiddleSection = () => {
             </div>
           </div>
           <div className="">
-            <Image src="/people.png" width={300} height={300} alt="people" />
+            <Image src="/people.png" width={400} height={300} alt="people" />
           </div>
         </div>
       </div>
